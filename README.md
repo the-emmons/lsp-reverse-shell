@@ -1,7 +1,7 @@
 # LSP Reverse Shell
 A Lua Server Pages reverse webshell for Windows. I noticed there was no '.lsp' webshell of any sort available online, so now there is.
 
-Since the Lua sockets module, the traditional Lua reverse shell method, often isn't installed, this webshell opts instead to execute a reverse shell in-memory off of an SMB share. Be sure to install impacket, if it isn't already installed.
+Since the Lua sockets module (the traditional Lua reverse shell method) often isn't installed, this webshell opts instead to execute a reverse shell in-memory off of an SMB share. Be sure to install impacket, if it isn't already installed.
 ### Usage:
 * ```git clone https://github.com/the-emmon/lsp-reverse-shell```
 * ```cd lsp-reverse-shell```
