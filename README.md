@@ -5,7 +5,7 @@ Since the Lua sockets module (the traditional Lua reverse shell method) often is
 
 The reverse shell port is set to 135 to avoid any egress issues.
 
-Be sure to install impacket, if it isn't already installed, since you'll need smbserver.py.
+Be sure to install impacket if it isn't already installed, since you'll need smbserver.py.
 ### Usage:
 * ```git clone https://github.com/the-emmon/lsp-reverse-shell```
 * ```cd lsp-reverse-shell```
