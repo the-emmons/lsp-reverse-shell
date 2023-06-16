@@ -7,7 +7,7 @@ The reverse shell port is set to 135 to avoid any egress issues.
 
 Be sure to install impacket if it isn't already installed, since you'll need smbserver.py.
 ### Usage:
-* ```git clone https://github.com/the-emmon/lsp-reverse-shell```
+* ```git clone https://github.com/the-emmons/lsp-reverse-shell```
 * ```cd lsp-reverse-shell```
 * Change the IP address in 'rev.lsp' to your machine.
 * ``` sudo smbserver.py SMB . -comment share -ts -debug -smb2support -username user -password 'pass' ```
